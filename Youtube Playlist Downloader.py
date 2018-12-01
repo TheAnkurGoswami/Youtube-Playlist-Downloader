@@ -1,9 +1,28 @@
-import bs4
-import requests
-import pytube as pt
-import re
-import os
-import shelve
+#Script by अंkur गोswami
+try:
+    import bs4
+except:
+    print("'bs4' module not found!!!\nTry installing it using 'pip install bs4' command in terminal.")
+try:
+    import requests
+except:
+    print("'requests' module not found!!!\nTry installing it using 'pip install requests' command in terminal.")
+try:
+    import pytube as pt
+except:
+    print("'pytube' module not found!!!\nTry installing it using 'pip install pytube' command in terminal.")
+try:
+    import re
+except:
+    print("'re' module not found!!!\nTry installing it using 'pip install re' command in terminal.")
+try:
+    import os
+except:
+    print("'os' module not found!!!\nTry installing it using 'pip install os' command in terminal.")
+try:
+    import shelve
+except:
+    print("'shelve' module not found!!!\nTry installing it using 'pip install shelve' command in terminal.")
 
 def Download(link,location):
     global file
