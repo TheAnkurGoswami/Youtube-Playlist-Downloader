@@ -10,3 +10,5 @@ Pre-requisites:
 Features:
   1. Downloads whole Youtube playlist.
   2. Can resume previously cancelled/paused downloads.
+  
+Credits: अंkur गोswami
