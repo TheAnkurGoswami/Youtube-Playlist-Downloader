@@ -30,8 +30,11 @@ def Download(link,location):
     tagptrn=re.compile(r'itag="(\d+)"')
     itag=int(tagptrn.findall(str(a.streams.first()))[0])  #Best Quality
     print('DOWNLOADING: ',a.title)
-    a.streams.get_by_itag(itag).download(location)
-    file['count']+=1
+    try:
+        a.streams.get_by_itag(itag).download(location)
+        file['count']+=1
+    except:
+        pass
 
 if os.path.isfile('data.bak'):
     file=shelve.open('data',writeback=True)
