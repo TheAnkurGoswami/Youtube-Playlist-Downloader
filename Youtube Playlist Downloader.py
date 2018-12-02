@@ -1,29 +1,41 @@
 #Script by अंkur गोswami
+import os
+
 try:
     import bs4
 except:
-    print("'bs4' module not found!!!\nTry installing it using 'pip install bs4' command in terminal.")
+    print("Installing bs4.\n")
+    t=os.system('pip install bs4')
+    import bs4
+    
 try:
     import requests
 except:
-    print("'requests' module not found!!!\nTry installing it using 'pip install requests' command in terminal.")
+    print("Installing requsts.\n")
+    t=os.system('pip install requests')
+    import requests
+    
 try:
     import pytube as pt
 except:
-    print("'pytube' module not found!!!\nTry installing it using 'pip install pytube' command in terminal.")
+    print("Installing pytube.\n")
+    t=os.system('pip install pytube')
+    import pytube as pt
+    
 try:
     import re
 except:
-    print("'re' module not found!!!\nTry installing it using 'pip install re' command in terminal.")
-try:
-    import os
-except:
-    print("'os' module not found!!!\nTry installing it using 'pip install os' command in terminal.")
+    print("Installing re.\n")
+    t=os.system('pip install re')
+    import re
+    
 try:
     import shelve
 except:
-    print("'shelve' module not found!!!\nTry installing it using 'pip install shelve' command in terminal.")
-
+    print("Installing shelve.\n")
+    t=os.system('pip install shelve')
+    import shelve
+    
 def Download(link,location):
     global file
     a=pt.YouTube(link)
