@@ -11,4 +11,7 @@ Features:
   1. Downloads whole Youtube playlist.
   2. Can resume previously cancelled/paused downloads.
   
+How to Run this script:
+  1. Open terminal inside this Youtube Playlist Downloader folder.
+  2. Use ``python Youtube Playlist Downloader.py`` to run the script.
 Credits: अंkur गोswami
