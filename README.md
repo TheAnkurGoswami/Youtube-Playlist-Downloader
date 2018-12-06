@@ -13,5 +13,5 @@ Features:
   
 How to Run this script:
   1. Open terminal inside this Youtube Playlist Downloader folder.
-  2. Use ``python Youtube Playlist Downloader.py`` to run the script.
+  2. Use ``python Youtube Playlist Downloader.py`` command to run the script.
 Credits: अंkur गोswami
